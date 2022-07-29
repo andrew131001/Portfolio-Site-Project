@@ -1,4 +1,4 @@
-# Portfolio-Site-Project
+# Portfolio Site Project
  School Project
  
 ## What's done for the project
