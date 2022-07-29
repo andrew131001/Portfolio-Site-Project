@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{title}}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    {{!-- Link to Bootstrap 5 CSS --}}
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  {{!-- navigayion bar to travel around pages--}}
+  <nav>
+    <ul class="nav-bar">
+    <li><a href="/">Home</a></li>
+    <li><a href="/aboutme">About Me</a></li>
+    <li><a href="/projects">Projects</a></li>
+    <li><a href="/contactme">Contact Me</a></li>
+    </ul>
+  </nav>
+  {{!-- each body of specific page will be displayed here--}}
+  <body>
+      {{{body}}}
+  </body>
+  {{!-- github and linkedin links stay on each page--}}
+  <footer class="footer">
+    <a href="https://github.com/andrew131001"><img src="images/github-footer.png" alt="github-footer"></a>
+    <a href="https://www.linkedin.com/in/daeyeong-ok-946a49212/"><img src="images/linkedin.png" alt="linkedin"></a>
+  </footer>
+</html>

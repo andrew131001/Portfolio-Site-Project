@@ -1,0 +1,271 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.nav-bar {
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 1%;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.nav-bar a {
+  color: black;
+  text-decoration: none;
+}
+
+.home-header {
+  text-align: center;
+  background-image: url('/images/9QoEKF.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+
+.home-header h1{
+  padding-bottom: 3%;
+  font-size: 4rem;
+}
+
+.home-header h2 {
+  font-size: 1.7rem;
+}
+
+.home-traits-column{
+  float: left;
+  width: 33%;
+  margin-bottom: 5%;
+}
+
+.home-traits-column img {
+  width: 40%;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+  margin-top: 2%;
+  margin-bottom: 10%;
+}
+
+.home-traits-column p {
+  width: 100%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.home-traits-row {
+  content: "";
+  display: table;
+  clear: both;
+  text-align: center;
+  width: 100%;
+  margin-top: 5%;
+}
+
+.aboutme-header{
+  background-image: linear-gradient(to bottom right, blue, pink);
+  opacity: 0.8;
+  padding: 10%;
+  text-align: center;
+}
+
+#aboutme-ios {
+  width: 40%;
+  height: 60%;
+}
+
+#aboutme-header-img {
+  display: inline-block;
+  text-align: center;
+}
+
+#aboutme-header-text {
+  padding-top: 4%;
+  color: aliceblue;
+}
+
+#aboutme-summary {
+  margin: 5%;
+}
+
+.aboutme-img-container-grid {
+  text-align: center;
+}
+
+.aboutme-img-container-column {
+  float: left;
+  width: 33%;
+  padding: 1%;
+}
+
+.aboutme-img-container-column img {
+  width: 20%;
+}
+
+.aboutme-img-container-row {
+  content: "";
+  display: table;
+  clear: both;
+  width: 100%;
+}
+
+#aboutme-technical-skills {
+  padding: 1% 5% 5% 5%;
+  background-color:whitesmoke;
+}
+
+.projects-body  {
+  background-image: url('/images/Colorful-Circle-Simple-Background-Image-1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.projects-header {
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 3%;
+  color: gainsboro;
+}
+
+.projects-container {
+  padding-top: 3%;
+}
+
+.projects-container h3{
+  color:gainsboro;
+}
+
+.projects-container h6 {
+  font-style: italic;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 2%;
+  color: gainsboro;
+}
+
+.projects-container-grid {
+  text-align: center;
+}
+
+.projects-container-column {
+  float: left;
+  width: 50%;
+}
+
+.projects-container-row {
+  content: "";
+  display: table;
+  clear: both;
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+.projects-container-column img {
+  width: 60%;
+  margin-bottom: 3%;
+  border-radius: 0.5rem;
+}
+
+.projects-container-column img:hover {
+  opacity: 0.6;
+}
+
+.contactme {
+  background-image: url('/images/greg-rosenke-6QnEf_b47eA-unsplash.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contactme-header {
+  text-align: center;
+  color: white;
+}
+
+.contactme-container {
+  width: 100%;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 25%;
+  padding-bottom: 10%;
+}
+
+
+
+.contactme-form label, input, textarea {
+  display: block;
+  width: 500px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.contactme-form label {
+  margin: auto;
+  color: white;
+}
+
+#name, #email, #message, #send{
+  margin: auto;
+}
+
+#message {
+    height: 200px;
+    width: 500px;
+    text-align: start;
+    vertical-align: top;
+    resize: vertical;
+}
+
+#send {
+  margin-top: 3%;
+  color: white;
+  background-color: #007aff;
+}
+
+#send:hover {
+  opacity: 0.8;
+}
+
+
+
+
+
+.footer {
+  padding: 3% 2% 3% 2%;
+  background-color: dimgray;
+  text-align: center;
+}
+
+.footer img {
+  width: 3.8rem;
+  height: 2.5rem;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
